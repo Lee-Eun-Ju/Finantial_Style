@@ -1,5 +1,22 @@
 
 
+# install.packages("shiny")
+# install.packages("DT")
+# install.packages("shinythemes")
+# install.packages("tidyverse")
+# install.packages("ggmap")
+# install.packages("ggplot2")
+# install.packages("gridExtra")
+# install.packages("raster")
+# install.packages("rgeos")
+# install.packages("maptools")
+# install.packages("rgdal")
+# install.packages("lubridate")
+# install.packages("psych")
+# install.packages("gplots")
+# install.packages("devtools")
+# install.packages("NbClust")
+
 require("shiny")
 require("DT")
 require("shinythemes")
@@ -17,7 +34,7 @@ require("gplots")
 require("devtools")
 require("NbClust")
 
-credit = read.csv("credit_card_data.csv", fileEncoding = "UTF-8")
+credit = read.csv("credit_card_data.csv", encoding = "UTF-8")
 jeju = read.csv("jeju_financial_life_data.csv")
 
 # Data 준비 ------------------------------------------------------------------------------------------------
